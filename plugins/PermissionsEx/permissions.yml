@@ -1,0 +1,284 @@
+groups:
+  Member:
+    build: true
+    permissions:
+    - jm36.kit.starter
+    - essentials.build
+    - essentials.exp
+    - essentials.exp.others
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.pay
+    - essentials.worth
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.help
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.itemdb
+    - essentials.list
+    - essentials.motd
+    - essentials.msg
+    - essentials.near
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.suicide
+    - essentials.ban.notify
+    - essentials.clearinventory
+    - essentials.kick.notify
+    - essentials.mute.notify
+    - essentials.spawn
+    - essentials.back
+    - essentials.delhome
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - anticheat.system.notice
+    - AWE.user.jobs
+    - AWE.user.purge
+    - AWE.user.cancel
+    - ChestShop.shop.*
+    - gianttrees.grow
+    - iBlock.bucket.lava
+    - iBlock.bucket.water
+    - lockette.user.*
+    - multiverse.access.*
+    - ob.broadcast
+    - plotme.use
+    - plotme.limit.1
+    - RandomLocationTeleporter.rlt
+    - RandomLocationTeleporter.back
+    - tv.read
+    - worldedit.*
+    options:
+      prefix: '&2(&aMember&2)&f '
+      default: true
+  VIP:
+    inheritance:
+    - Member
+    build: true
+    permissions:
+    - essentials.feed
+    - essentials.god
+    - essentials.hat
+    - essentials.heal
+    - essentials.ptime
+    - essentials.skull
+    - essentials.skull.modify
+    - essentials.skull.others
+    - essentials.skull.spawn
+    - essentials.workbench
+    - essentials.eco.loan
+    - essentials.pay.multiple
+    - essentials.afk.kickexempt
+    - essentials.getpos
+    - essentials.msg.*
+    - -essentials.msg.url
+    - essentials.near.maxexempt
+    - essentials.nick.*
+    - -essentials.nick.others
+    - essentials.realname
+    - essentials.enderchest
+    - essentials.back.ondeath
+    - essentials.keepxp
+    - essentials.home.bed
+    - essentials.sethome.multiple.vip
+    - essentials.tpaall
+    - essentials.teleport.timer.move
+    - essentials.chat.*
+    - -essentials.chat.spy
+    - -essentials.chat.url
+    - essentials.geoip.show
+    - essentials.joinfullserver
+    - ChestShop.nofee
+    - magiccarpet.mc
+    - ob.receive
+    - plotme.limit.4
+    options:
+      prefix: '&b(&3&lVIP&r&b)&f '
+      default: false
+  Trial:
+    inheritance:
+    - Member
+    build: true
+    permissions:
+    - essentials.fly
+    - essentials.god
+    - essentials.afk.others
+    - essentials.helpop.receive
+    - essentials.near.others
+    - essentials.getpos
+    - essentials.whois
+    - essentials.clearinventory.others
+    - essentials.enderchest.others
+    - essentials.invsee
+    - essentials.kick
+    - essentials.mute
+    - essentials.togglejail
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.spawn.others
+    - essentials.home.others
+    - essentials.sethome.others
+    - essentials.tp
+    - essentials.teleport.cooldown.bypass
+    - essentials.teleport.timer.bypass
+    - essentials.joinfullserver
+    - anticheat.system.alert
+    - lagg.clear
+    - lagg.unloadchunks
+    - lagg.gc
+    - lagg.tps
+    - lagg.halt
+    options:
+      prefix: '&4(&cTrial&4)&f '
+      default: false
+  Mod:
+    inheritance:
+    - Trial
+    - Member
+    build: true
+    permissions:
+    - essentials.exp.give
+    - essentials.exp.set
+    - essentials.feed
+    - essentials.feed.cooldown.bypass
+    - essentials.heal.cooldown.bypass
+    - essentials.fly.others
+    - essentials.gamemode
+    - essentials.enchantments.*
+    - essentials.oversizedstacks
+    - essentials.god.others
+    - essentials.heal.others
+    - essentials.ptime
+    - essentials.skull
+    - essentials.skull.modify
+    - essentials.skull.others
+    - essentials.skull.spawn
+    - essentials.workbench
+    - essentials.pay.multiple
+    - essentials.afk.kickexempt
+    - essentials.getpos.others
+    - essentials.list.hidden
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.ban
+    - essentials.banip
+    - essentials.enderchest.modify
+    - essentials.invsee.modify
+    - essentials.kill
+    - essentials.mute.exempt
+    - essentials.socialspy
+    - essentials.sudo
+    - essentials.tempban
+    - essentials.jail.exempt
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.vanish.see
+    - essentials.delhome.others
+    - essentials.jump
+    - essentials.top
+    - essentials.tp.others
+    - essentials.tpall
+    - essentials.tphere
+    - essentials.tptoggle
+    - anticheat.system.report
+    - AWE.admin.jobs
+    - AWE.admin.jobs.all
+    - AWE.admin.cancel
+    - AWE.admin.purge
+    - AWE.admin.purge.all
+    - ChestShop.mod
+    - gianttrees.create
+    - lockette.admin.*
+    - plotme.admin
+    options:
+      prefix: '&4(&cMod&4)&f '
+      default: false
+  Admin:
+    inheritance:
+    - Mod
+    - Trial
+    - Member
+    build: true
+    permissions:
+    - essentials.eco.loan
+    - essentials.exp.give.others
+    - essentials.exp.set.others
+    - essentials.feed.others
+    - essentials.fly.others
+    - essentials.fly.safelogin
+    - essentials.gamemode.others
+    - essentials.enchantments.allowunsafe
+    - essentials.god.pvp
+    - essentials.oversizedstacks
+    - essentials.more
+    - essentials.ptime.others
+    - essentials.chat.ignoreexempt
+    - essentials.seen.ipsearch
+    - essentials.ban.exempt
+    - essentials.ban.offline
+    - essentials.clearinventory.all
+    - essentials.invsee.preventmodify
+    - essentials.kick.exempt
+    - essentials.kickall
+    - essentials.kill.exempt
+    - essentials.socialspy.others
+    - essentials.sudo.exempt
+    - essentials.tempban.exempt
+    - -essentials.vanish.effect
+    - essentials.vanish.interact
+    - essentials.sethome.multiple.unlimited
+    - essentials.tpo
+    - essentials.tpohere
+    - essentials.tptoggle.others
+    - anticheat.system.reset
+    - AWE.admin.queue-bypass
+    - ChestShop.admin
+    - lagg.deletedrops
+    options:
+      prefix: '&4(&cAdmin&4)&f '
+      default: false
+  Builder:
+    inheritance:
+    - Trial
+    - Member
+    build: true
+    permissions:
+    - worldedit.*
+    options:
+      prefix: '&9(&bBuilder&9)&f '
+      default: false
+  Creator:
+    build: true
+    permissions:
+    - '*'
+    options:
+      prefix: '&6(&4Creator&6)&f '
+      default: false
+  Co-Owner:
+    build: true
+    permissions:
+    - '*'
+    - -worldguard.*
+    - -tv.talk
+    options:
+      prefix: '&6(&4Co-Owner&6)&f '
+      default: false
+  Owner:
+    build: true
+    permissions:
+    - '*'
+    options:
+      prefix: '&6(&4Owner&6)&f '
+      default: false
+users:
+  JayMontana36:
+    group:
+    - Creator

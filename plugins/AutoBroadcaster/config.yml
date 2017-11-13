@@ -1,0 +1,9 @@
+broadcaster:
+    debugging: false
+
+    global:
+        announcerName: ''
+        interval: 360
+        broadcast-to-console: false
+        min-players: 1
+        delimeter: '\n'

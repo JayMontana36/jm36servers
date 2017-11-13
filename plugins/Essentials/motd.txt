@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+&b&l=============================================
+&b&k&l=============================================
+&b&l=============================================
+&6Hello &f{PLAYER}&6, and Welcome to a PreBuilt
+&6Minecraft Server, provided by &JayMontana36&6!
+&6There are currently &c{ONLINE} &6player(s) online
+&b&l=============================================

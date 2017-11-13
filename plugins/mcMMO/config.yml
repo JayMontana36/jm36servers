@@ -1,0 +1,312 @@
+General:
+    Locale: en_US
+    MOTD_Enabled: false
+    Save_Interval: 15
+    Stats_Tracking: false
+    Update_Check: false
+    Prefer_Beta: false
+    Event_Callback: true
+    Power_Level_Cap: 0
+    Verbose_Logging: false
+    Config_Update_Overwrite: true
+    LevelUp_Sounds: true
+Scoreboard:
+    Power_Level_Tags: false
+    Allow_Keep: true
+    Rainbows: false
+    Types:
+        Rank:
+            Print: false
+            Board: true
+            Display_Time: 15
+        Top:
+            Print: true
+            Board: true
+            Display_Time: 15
+        Stats:
+            Print: false
+            Board: true
+            Display_Time: 15
+        Inspect:
+            Print: false
+            Board: true
+            Display_Time: 20
+        Cooldown:
+            Print: true
+            Board: true
+            Display_Time: 41
+        Skill:
+            Board: true
+            Display_Time: 30
+            LevelUp_Board: true
+            LevelUp_Time: 5
+
+Mob_Healthbar:
+    Display_Type: HEARTS
+    Display_Time: 3
+
+Database_Purging:
+    Purge_Interval: -1
+    Old_User_Cutoff: 6
+Backups:
+    Enabled: true
+    Keep:
+        Last_24_Hours: true
+        Daily_Last_Week: true
+        Weekly_Past_Months: true
+MySQL:
+    Enabled: false
+    Database:
+        User_Name: UserName
+        User_Password: UserPassword
+        Name: DataBaseName
+        TablePrefix: mcmmo_
+    Server:
+        Port: 3306
+        Address: localhost
+Hardcore:
+    Death_Stat_Loss:
+        Penalty_Percentage: 75.0
+        Level_Threshold: 0
+        Enabled:
+            Acrobatics: false
+            Alchemy: false
+            Archery: false
+            Axes: false
+            Excavation: false
+            Fishing: false
+            Herbalism: false
+            Mining: false
+            Repair: false
+            Swords: false
+            Taming: false
+            Unarmed: false
+            Woodcutting: false
+    Vampirism:
+        Leech_Percentage: 5.0
+        Level_Threshold: 0
+        Enabled:
+            Acrobatics: false
+            Alchemy: false
+            Archery: false
+            Axes: false
+            Excavation: false
+            Fishing: false
+            Herbalism: false
+            Mining: false
+            Repair: false
+            Swords: false
+            Taming: false
+            Unarmed: false
+            Woodcutting: false
+Mods:
+    Tool_Mods_Enabled: false
+    Armor_Mods_Enabled: false
+    Block_Mods_Enabled: false
+    Entity_Mods_Enabled: false
+Items:
+    Chimaera_Wing:
+        Enabled: true
+        Cooldown: 240
+        Warmup: 5
+        RecentlyHurt_Cooldown: 60
+        Prevent_Use_Underground: true
+        Use_Cost: 1
+        Recipe_Cost: 5
+        Item_Name: FEATHER
+        Sound_Enabled: true
+Party:
+    AutoKick_Interval: 12
+    Old_Party_Member_Cutoff: 7
+    Sharing:
+        ExpShare_bonus_base: 1.1
+        ExpShare_bonus_increase: 1.05
+        ExpShare_bonus_cap: 1.5
+        Range: 75.0
+    Leveling:
+        Level_Cap: 10
+        Xp_Curve_Modifier: 3
+        Near_Members_Needed: false
+        Inform_All_Party_Members_On_LevelUp: false
+
+        Chat_UnlockLevel: 1
+        Teleport_UnlockLevel: 2
+        Alliance_UnlockLevel: 5
+        ItemShare_UnlockLevel: 8
+        XpShare_UnlockLevel: 10
+Abilities:
+    Enabled: true
+    Messages: true
+    Activation:
+        Only_Activate_When_Sneaking: false
+    Cooldowns:
+        Berserk: 240
+        Blast_Mining: 60
+        Giga_Drill_Breaker: 240
+        Green_Terra: 240
+        Serrated_Strikes: 240
+        Skull_Splitter: 240
+        Super_Breaker: 240
+        Tree_Feller: 240
+    Max_Seconds:
+        Berserk: 0
+        Blast_Mining: 0
+        Giga_Drill_Breaker: 0
+        Green_Terra: 0
+        Serrated_Strikes: 0
+        Skull_Splitter: 0
+        Super_Breaker: 0
+        Tree_Feller: 0
+    Limits:
+        Tree_Feller_Threshold: 500
+    Tools:
+        Durability_Loss: 1
+Skills:
+    Acrobatics:
+        Enabled_For_PVP: true
+        Enabled_For_PVE: true
+        Prevent_AFK_Leveling: true
+        Max_Tries_At_Same_Location: 3
+        Prevent_Dodge_Lightning: false
+        XP_After_Teleport_Cooldown: 5
+        Level_Cap: 0
+    Alchemy:
+        Enabled_for_Hoppers: true
+        Prevent_Hopper_Transfer: false
+        Level_Cap: 0
+    Archery:
+        Enabled_For_PVP: true
+        Enabled_For_PVE: true
+        Level_Cap: 0
+    Axes:
+        Enabled_For_PVP: true
+        Enabled_For_PVE: true
+        Level_Cap: 0
+    Excavation:
+        Level_Cap: 0
+    Fishing:
+        Level_Cap: 0
+        Drops_Enabled: true
+        Override_Vanilla_Treasures: true
+        Extra_Fish: false
+    Herbalism:
+        Level_Cap: 0
+        Prevent_AFK_Leveling: true
+    Mining:
+        Level_Cap: 0
+        Detonator_Name: FLINT_AND_STEEL
+    Repair:
+        Level_Cap: 0
+        Anvil_Messages: true
+        Anvil_Placed_Sounds: true
+        Anvil_Use_Sounds: true
+        Anvil_Material: IRON_BLOCK
+        Salvage_Anvil_Material: GOLD_BLOCK
+        Salvage_tools: true
+        Salvage_armor: true
+        Confirm_Required: true
+    Smelting:
+        Level_Cap: 0
+    Swords:
+        Enabled_For_PVP: true
+        Enabled_For_PVE: true
+        Level_Cap: 0
+    Taming:
+        Enabled_For_PVP: true
+        Enabled_For_PVE: true
+        Level_Cap: 0
+        Call_Of_The_Wild:
+            Wolf:
+                Item_Material: BONE
+                Item_Amount: 10
+                Summon_Amount: 1
+            Ocelot:
+                Item_Material: RAW_FISH
+                Item_Amount: 10
+                Summon_Amount: 1
+            Horse:
+                Item_Material: APPLE
+                Item_Amount: 10
+                Summon_Amount: 1
+            Range: 40.0
+    Unarmed:
+        Enabled_For_PVP: true
+        Enabled_For_PVE: true
+        Level_Cap: 0
+        Block_Cracker:
+            SmoothBrick_To_CrackedBrick: true
+    Woodcutting:
+        Tree_Feller_Sounds: true
+        Level_Cap: 0
+Double_Drops:
+    Herbalism:
+        Brown_Mushroom: true
+        Cactus: true
+        Carrot: true
+        Cocoa: true
+        Crops: true
+        Melon_Block: true
+        Nether_Warts: true
+        Potato: true
+        Pumpkin: true
+        Red_Mushroom: true
+        Red_Rose: true
+        Sugar_Cane_Block: true
+        Vine: true
+        Water_Lily: true
+        Yellow_Flower: true
+    Mining:
+        Coal_Ore: true
+        Diamond_Ore: true
+        Emerald_Ore: true
+        Ender_Stone: true
+        Glowstone: true
+        Gold_Ore: true
+        Iron_Ore: true
+        Lapis_Ore: true
+        Mossy_Cobblestone: true
+        Netherrack: true
+        Obsidian: true
+        Quartz_Ore: true
+        Redstone_Ore: true
+        Sandstone: true
+        Stone: true
+    Woodcutting:
+        Acacia: true
+        Birch: true
+        Dark_Oak: true
+        Generic: true
+        Jungle: true
+        Redwood: true
+Commands:
+    Generic:
+        Match_OfflinePlayers: false
+    Database:
+        Player_Cooldown: 1750
+    mcmmo:
+        Donate_Message: true
+    inspect:
+        Max_Distance: 30.0
+    ptp:
+        Cooldown: 120
+        Warmup: 5
+        RecentlyHurt_Cooldown: 60
+        Accept_Required: true
+        Request_Timeout: 300
+        World_Based_Permissions: false
+    partychat:
+        Chat_Prefix_Format: '[[GREEN]]([[WHITE]]{0}[[GREEN]])'
+        Use_Display_Names: true
+        Chat_Prefix_Format_Ally: '[[GREEN]](A)[[RESET]]'
+    adminchat:
+        Chat_Prefix_Format: '[[AQUA]][[[WHITE]]{0}[[AQUA]]]'
+        Use_Display_Names: true
+Particles:
+    Ability_Activation: true
+    Ability_Deactivation: true
+    LargeFireworks: true
+    Dodge: true
+    Bleed: true
+    Greater_Impact: true
+    LevelUp_Enabled: true
+    LevelUp_Tier: 100

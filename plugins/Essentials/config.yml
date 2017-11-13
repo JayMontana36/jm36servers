@@ -1,0 +1,280 @@
+ops-name-color: 'none'
+nickname-prefix: ''
+max-nick-length: 55
+change-displayname: true
+change-playerlist: true
+teleport-safety: true
+teleport-cooldown: 30
+teleport-delay: 5
+teleport-invulnerability: 15
+heal-cooldown: 120
+item-spawn-blacklist:
+permission-based-item-spawn: false
+spawnmob-limit: 1
+warn-on-smite: true
+overridden-commands:
+disabled-commands:
+socialspy-commands:
+  - msg
+  - w
+  - r
+  - mail
+  - m
+  - t
+  - whisper
+  - emsg
+  - tell
+  - er
+  - reply
+  - ereply
+  - email
+  - action
+  - describe
+  - eme
+  - eaction
+  - edescribe
+  - etell
+  - ewhisper
+  - pm
+player-commands:
+  - afk
+  - afk.auto
+  - back
+  - back.ondeath
+  - balance
+  - balance.others
+  - balancetop
+  - build
+  - chat.color
+  - chat.format
+  - chat.shout
+  - chat.question
+  - clearinventory
+  - compass
+  - depth
+  - delhome
+  - getpos
+  - geoip.show
+  - help
+  - helpop
+  - home
+  - home.others
+  - ignore
+  - info
+  - itemdb
+  - kit
+  - kits.tools
+  - list
+  - mail
+  - mail.send
+  - me
+  - motd
+  - msg
+  - msg.color
+  - nick
+  - near
+  - pay
+  - ping
+  - protect
+  - r
+  - rules
+  - realname
+  - seen
+  - sell
+  - sethome
+  - setxmpp
+  - signs.create.protection
+  - signs.create.trade
+  - signs.break.protection
+  - signs.break.trade
+  - signs.use.balance
+  - signs.use.buy
+  - signs.use.disposal
+  - signs.use.enchant
+  - signs.use.free
+  - signs.use.gamemode
+  - signs.use.heal
+  - signs.use.info
+  - signs.use.kit
+  - signs.use.mail
+  - signs.use.protection
+  - signs.use.repair
+  - signs.use.sell
+  - signs.use.time
+  - signs.use.trade
+  - signs.use.warp
+  - signs.use.weather
+  - spawn
+  - suicide
+  - time
+  - tpa
+  - tpaccept
+  - tpahere
+  - tpdeny
+  - warp
+  - warp.list
+  - world
+  - worth
+  - xmpp
+kits:
+  color:
+    delay: 6000
+    items:
+      - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+enabledSigns:
+  - color
+  - balance
+  - buy
+  - sell
+  - trade
+  - free
+  - disposal
+  - warp
+  - kit
+  - repair
+  - time
+sign-use-per-second: 1
+backup:
+  interval: 90
+per-warp-permission: false
+list:
+    Staff: Owner Co-Owner Builder Admin Mod Trial
+    VIP: VIP
+    Member: Member
+debug: false
+remove-god-on-disconnect: true
+auto-afk: 90
+auto-afk-kick: 180
+freeze-afk-players: true
+disable-item-pickup-while-afk: true
+cancel-afk-on-interact: true
+cancel-afk-on-move: false
+death-messages: true
+allow-silent-join-quit: false
+custom-join-message: "(&dServer&r) [&a&l+1&r] {PLAYER}"
+custom-quit-message: "(&dServer&r) [&c&l-1&r] {PLAYER}"
+no-god-in-worlds:
+world-teleport-permissions: false
+default-stack-size: 1
+oversized-stacksize: 64
+repair-enchanted: false
+unsafe-enchantments: false
+register-back-in-listener: true
+login-attack-delay: 15
+max-fly-speed: 1.0
+max-walk-speed: 1.0
+mails-per-minute: 1000
+max-tempban-time: -1
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 3
+  vip: 5
+  staff: 10
+tpa-accept-cancellation: 15
+starting-balance: 150
+command-costs:
+currency-symbol: '$'
+max-money: 10000000000000
+min-money: -10000
+economy-log-enabled: false
+non-ess-in-help: false
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '{DISPLAYNAME}&r: &3{MESSAGE}'
+  group-formats:
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: false
+    lava-fire-spread: false
+    flint-fire: false
+    lightning-fire-spread: false
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: false
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: true
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: true
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: true
+      thunder: true
+      lightning: true
+    build: true
+    use: false
+    warn-on-build-disallow: true
+  alert:
+    on-placement:
+    on-use:
+    on-break:
+  blacklist:
+    placement:
+    usage:
+    break:
+    piston:
+    dispenser:
+newbies:
+  announce-format: '&7Hello &a{DISPLAYNAME}&7, and Welcome to a PreBuilt MC Server provided by &aJayMontana36&7!'
+  spawnpoint: none
+  kit: ''
+respawn-listener-priority: highest
+respawn-at-home: true

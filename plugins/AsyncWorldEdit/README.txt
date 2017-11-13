@@ -1,0 +1,1 @@
+If for some reason, blocks being processed on the server is moving really slowly, or you just want more speed, simply rename the original "config.yml" to "config.yml.original" and then rename "config.yml.speed" to "config.yml" then restart your server. Be warned: You may encounter crashes with the faster config if you don't have enough RAM! Undo changes if you do crash.
